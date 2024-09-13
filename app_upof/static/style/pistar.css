@@ -1,0 +1,22 @@
+.circuitos {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.circuitos h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.circuitos{
+    background-color: rgba(0, 0, 255, 0.137);
+}
+
+.card {
+    width: 18rem; /* Define a largura fixa do card, você pode ajustar conforme necessário */
+    margin: 0 auto; /* Centraliza o card */
+}
+.card img {
+    height: 300px; /* Ajuste a altura da imagem do card */
+    object-fit: cover; /* Garante que a imagem se ajuste à altura sem distorcer */
+}

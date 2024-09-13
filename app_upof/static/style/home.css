@@ -1,0 +1,38 @@
+/* custom.css */
+.custom-carousel {
+    width: 70%; /* Ajuste a largura conforme necessário */
+    margin: 10% auto; /* Centraliza o carrossel na página */
+    border: 10px;
+}
+
+.custom-carousel img {
+    width: auto;
+    height: 500px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Isso faz com que a imagem se ajuste à nova altura sem distorção */
+}
+
+
+/* Estilização da seção de pilotos */
+.pilotos-lista {
+    padding: 40px 0;
+    background-color: #2e269c7f;
+}
+
+.pilotos-lista h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.pilotos-lista .list-group-item {
+    font-size: 1.25rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pilotos-lista .badge {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+}
